@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600,600italic,700,700italic");
 
-/*
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -27,7 +22,9 @@ section, summary, time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
-	display: block;}
+	display: block;
+}
+
 
 body {
 	line-height: 1;
@@ -2762,21 +2759,23 @@ input, select, textarea {
 			color: #544d55;
 		}
 
-		#header .logo {
+		 #header .logo {
 			background: #4eb980;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 2.35em;
+			height: 4.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 2.35em;
+			width: 4.35em;
+			z-index: 1;
+			position: relative;
 		}
-
-			#header .logo.fa-paper-plane-o:before {
+		
+		#header .logo.avatar:before {
 				left: -0.075em;
 				position: relative;
 			}
