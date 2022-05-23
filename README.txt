@@ -1,33 +1,29 @@
-Directive by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Eddie Salcedo Website
+Webpage for freelancing, connections, display my work and provide validity, and a contact medium. 
+
+**Link to project:** http://eddiesalcedo.com/
+
+![alt tag](eddiesalcedo.com)
+
+## How It's Made:
+
+**Tech used:** HTML, CSS, SASS, JavaScript
 
 
-A simple single pager built around an angular motif (powered by SVG awesomeness).
-Should work great for a landing page. Also includes default styling for a bunch of
-standard page elements (uncomment the huge block of commented-out HTML to see it).
+## Optimizations
+*(optional)*
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+in progress
 
-(* = Not included)
+## Lessons Learned:
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+CSS text animations to spruce up the liveliness of the webpage. 
+...
 
-AJ
-aj@lkn.io | @ajlkn
+## Examples:
+Take a look at these couple examples that I have in my own portfolio:
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+**Envira Recycle:** https://github.com/inscentia/Envira-Company-Website
 
 
-Credits:
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
