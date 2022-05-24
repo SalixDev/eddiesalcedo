@@ -2924,6 +2924,154 @@ input, select, textarea {
 		#main footer.major {
 			background: #ffffff;
 		}
+		
+		.needQuestion{
+			display: flex;
+			justify-content: center;
+			text-align: start;
+			letter-spacing: .05em;
+			color: #333;
+			font-family: tahoma;
+			font-size: 1.5rem;
+			font-weight: 100;
+			line-height: 1.5;
+			text-transform: uppercase;
+			white-space: nowrap;
+			overflow: hidden;
+			position: relative;
+		}
+		.needQuestion span{
+			font-size: 22px;
+			left: 0;
+			right: 0;
+			margin-left: auto;
+			margin-right: 55.5%;
+		}
+		 .needQuestion .message{
+			 left: 0;
+			 right: 0;
+			 margin-left:45%;
+			 margin-right: auto;
+			background-color: #4c3c49;
+			color: white;
+			display: block;
+			font-weight: 900;
+			overflow: hidden;
+			position: absolute;
+			padding-left: 0.3rem;
+			margin-top: -.1rem;
+			animation: openclose 8s ease-in-out infinite;
+		}
+		/* #main .needQuestion .word1 .word2 .word3 .word4 .word5{
+		} */
+		@keyframes openclose {
+			0% {
+			  top: 0;
+			  width: 0;
+			}
+			3% {
+			  width: 0;
+			}
+		  /*   term 1; website*/
+			8% {
+			  width: 168px;
+			}
+			16% {
+			  top: 0;
+			  width: 168px;
+			}
+			18% {
+			  top: 0;
+			  width: 0;
+			}
+			20% {
+			  top: 0;
+			  width: 0;
+			}
+			21% {
+			  top: -2.25rem;
+			  width: 0;
+			}
+			22%{
+				width: 0;
+			}
+		  /*   term 2; app */
+			26% {
+			  top: -2.25rem;
+			  width: 248px;
+			}
+			33% {
+			  top: -2.25rem;
+			  width: 248px;
+			}
+			36% {
+			  top: -2.25rem;
+			  width: 0;
+			}
+			37% {
+			  top: -4.5rem;
+			  width: 0;
+			}
+			38%{
+				width: 0;;
+			}
+		  /*   term 3; program */
+			47% {
+			  top: -4.5rem;
+			  width: 181px;
+			}
+			55% {
+			  top: -4.5rem;
+			  width: 181px;
+			}
+			57%{
+			  top: -4.5rem;
+			  width: 0;
+			}
+			59%{
+			  top: -6.75rem;
+			  width: 0;
+			}
+			60%{
+				width: 0;
+			}
+		  /*   term 4; dev */
+			68%{
+			  top: -6.75rem;
+			  width: 202px;
+			}
+			77%{
+			  width: 202px;
+			}
+			79%{
+			  top:-6.75rem;
+			  width: 0;
+			}
+			80%{
+			  top: -9rem;
+			  width: 0;
+			}
+			81%{
+				width: 0;
+			}
+		  /*   term 5; web presence */
+			90%{
+			  top: -9rem;
+			  width: 251px;
+			}
+			97%{
+			  top:-9rem;
+			  width: 251px;
+			}
+			98%{
+			  top: -9rem;
+			  width: 0;
+			}
+			100%{
+			  width: 0;
+			}
+		  }
+
 
 /* Wide */
 
