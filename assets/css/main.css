@@ -2945,12 +2945,13 @@ input, select, textarea {
 			left: 0;
 			right: 0;
 			margin-left: auto;
-			margin-right: 55.5%;
+			margin-right: 61%;
+			margin-top: .04rem;
 		}
 		 .needQuestion .message{
 			 left: 0;
 			 right: 0;
-			 margin-left:45%;
+			 margin-left:39.3%;
 			 margin-right: auto;
 			background-color: #4c3c49;
 			color: white;
@@ -2958,8 +2959,8 @@ input, select, textarea {
 			font-weight: 900;
 			overflow: hidden;
 			position: absolute;
-			padding-left: 0.3rem;
-			margin-top: -.1rem;
+			padding-left: 0.25rem;
+			margin-top: -.15rem;
 			animation: openclose 8s ease-in-out infinite;
 		}
 		/* #main .needQuestion .word1 .word2 .word3 .word4 .word5{
