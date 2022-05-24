@@ -2933,9 +2933,9 @@ input, select, textarea {
 			text-align: start;
 			letter-spacing: .05em;
 			color: #333;
-			font-family: tahoma;
+			font-family: inherit;
 			font-size: 1.5rem;
-			font-weight: 100;
+			font-weight: 600;
 			line-height: 1.5;
 			text-transform: uppercase;
 			white-space: nowrap;
@@ -2943,12 +2943,12 @@ input, select, textarea {
 			position: relative;
 		}
 		.needQuestion span{
-			font-size: 22px;
+			font-size: 24px;
 			left: 0;
 			right: 0;
 			margin-left: auto;
 			margin-right: 61%;
-			margin-top: .04rem;
+			margin-top: -.1rem;
 		}
 		 .needQuestion .message{
 			left: 0;
@@ -2958,7 +2958,7 @@ input, select, textarea {
 			background-color: #563c52;
 			color: white;
 			display: block;
-			font-weight: 900;
+			font-weight: 600;
 			overflow: hidden;
 			position: absolute;
 			padding-left: 0.25rem;
@@ -2968,16 +2968,16 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 			footer .mobile-span{
 				display: inline;
-				font-size: 22px;
+				font-size: 24px;
 				left: 0;
 				right: 0;
 				margin-left: auto;
 				margin-right: auto;
 				letter-spacing: .05em;
 				color: #333;
-				font-family: tahoma;
+				font-family: inherit;
 				font-size: 1.5rem;
-				font-weight: 100;
+				font-weight: 600;
 				line-height: 1.5;
 				text-transform: uppercase;
 			}
@@ -3003,11 +3003,11 @@ input, select, textarea {
 			}
 		  /*   term 1; website*/
 			8% {
-			  width: 168px;
+			  width: 139px;
 			}
 			16% {
 			  top: 0;
-			  width: 168px;
+			  width: 139px;
 			}
 			18% {
 			  top: 0;
@@ -3027,11 +3027,11 @@ input, select, textarea {
 		  /*   term 2; app */
 			26% {
 			  top: -2.25rem;
-			  width: 248px;
+			  width: 208px;
 			}
 			33% {
 			  top: -2.25rem;
-			  width: 248px;
+			  width: 208px;
 			}
 			36% {
 			  top: -2.25rem;
@@ -3047,11 +3047,11 @@ input, select, textarea {
 		  /*   term 3; program */
 			47% {
 			  top: -4.5rem;
-			  width: 181px;
+			  width: 153px;
 			}
 			55% {
 			  top: -4.5rem;
-			  width: 181px;
+			  width: 153px;
 			}
 			57%{
 			  top: -4.5rem;
@@ -3067,10 +3067,10 @@ input, select, textarea {
 		  /*   term 4; dev */
 			68%{
 			  top: -6.75rem;
-			  width: 202px;
+			  width: 173px;
 			}
 			77%{
-			  width: 202px;
+			  width: 173px;
 			}
 			79%{
 			  top:-6.75rem;
@@ -3086,11 +3086,11 @@ input, select, textarea {
 		  /*   term 5; web presence */
 			90%{
 			  top: -9rem;
-			  width: 251px;
+			  width: 215px;
 			}
 			97%{
 			  top:-9rem;
-			  width: 251px;
+			  width: 215px;
 			}
 			98%{
 			  top: -9rem;
