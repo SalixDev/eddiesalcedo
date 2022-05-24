@@ -3,8 +3,6 @@ Webpage for freelancing, connections, display my work and provide validity, and 
 
 **Link to project:** http://eddiesalcedo.com/
 
-![alt tag](eddiesalcedo.com)
-
 ## How It's Made:
 
 **Tech used:** HTML, CSS, SASS, JavaScript

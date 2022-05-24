@@ -2924,7 +2924,9 @@ input, select, textarea {
 		#main footer.major {
 			background: #ffffff;
 		}
-		
+		footer .mobile-span{
+			display: none;
+		}
 		.needQuestion{
 			display: flex;
 			justify-content: center;
@@ -2949,11 +2951,11 @@ input, select, textarea {
 			margin-top: .04rem;
 		}
 		 .needQuestion .message{
-			 left: 0;
-			 right: 0;
-			 margin-left:39.3%;
-			 margin-right: auto;
-			background-color: #4c3c49;
+			left: 0;
+			right: 0;
+			margin-left:39.3%;
+			margin-right: auto;
+			background-color: #563c52;
 			color: white;
 			display: block;
 			font-weight: 900;
@@ -2962,6 +2964,32 @@ input, select, textarea {
 			padding-left: 0.25rem;
 			margin-top: -.15rem;
 			animation: openclose 8s ease-in-out infinite;
+		}
+		@media screen and (max-width: 980px) {
+			footer .mobile-span{
+				display: inline;
+				font-size: 22px;
+				left: 0;
+				right: 0;
+				margin-left: auto;
+				margin-right: auto;
+				letter-spacing: .05em;
+				color: #333;
+				font-family: tahoma;
+				font-size: 1.5rem;
+				font-weight: 100;
+				line-height: 1.5;
+				text-transform: uppercase;
+			}
+			.needQuestion span{
+				margin-right: auto;
+				opacity: 0;
+			}
+			.needQuestion .message{
+				margin-left: auto;
+				padding-left: 0.3rem;
+
+			}
 		}
 		/* #main .needQuestion .word1 .word2 .word3 .word4 .word5{
 		} */
@@ -3071,7 +3099,9 @@ input, select, textarea {
 			100%{
 			  width: 0;
 			}
-		  }
+		}
+
+		
 
 
 /* Wide */
