@@ -3045,7 +3045,7 @@ input, select, textarea {
 			position: absolute;
 			padding-left: 0.25rem;
 			/* margin-top: -.15rem; */
-			animation: openclose 3s ease-in-out infinite;
+			animation: openclose 8s ease-in-out infinite;
 		}
 		@media screen and (max-width: 980px) {
 			footer .mobile-span{
