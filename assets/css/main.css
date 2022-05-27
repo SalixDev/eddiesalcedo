@@ -2267,9 +2267,9 @@ input, select, textarea {
 			-webkit-perspective: 500px;
 			-ms-perspective: 500px;
 			perspective: 500px;
-		} */
+		} 
 
-			/* .image.icon:before {
+			.image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2285,14 +2285,13 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
-			} */
-/* 
+			} 
 			.image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
 				transform: translateZ(1em);
-			} */
+			}  */
 
 
 
@@ -2324,7 +2323,7 @@ input, select, textarea {
 	}
 
 /* Icon */
-/* 
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2358,7 +2357,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		} */
+		}
 
 /* List */
 
