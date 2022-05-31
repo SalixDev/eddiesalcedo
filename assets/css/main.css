@@ -2167,18 +2167,18 @@ input, select, textarea {
 	/* background-image: url("../css/images/esLogo/default.svg"); */
 	position: fixed;
 	top: 0;
-	margin-top: 10px;
-	left: 10px;
+	margin-top: 15px;
+	left: 15px;
 	width: 100%;
 	height: 100%;
 	text-align: left;
 	font-family: 'Muli', sans-serif;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
-	font-size: 4vw;
+	font-size: 4.2vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
-	background: linear-gradient(90deg, rgba(200,200,200,0.2), rgba(200,200,200,0.8));
+	background: linear-gradient(90deg, rgba(200,200,200,0.05), rgba(200,200,200,0.8));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 900;
@@ -2201,58 +2201,73 @@ input, select, textarea {
 
 /* Image */
 
-	.image {
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
 
-		.image:after {
+
+
+		/* .proj2:after {
 			-moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
 			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			background-image: url("../../images/enviraProject/envirasc.png");
 			content: '';
 			display: block;
+			background-size: contain;
+			background-repeat: no-repeat;
 			height: 100%;
-			left: 0;
-			opacity: 0.2;
-			position: relative;
-			top: 0;
 			width: 100%;
+			left: 0;
+			top: 0;
+			opacity: 1;
+			position: relative;
 			overflow: hidden;
-		}
+		} */
 
-		.image img {
+		/* .proj3:after {
+			-moz-transition: opacity 0.25s ease-in-out;
+			-webkit-transition: opacity 0.25s ease-in-out;
+			-ms-transition: opacity 0.25s ease-in-out;
+			transition: opacity 0.25s ease-in-out;
+			background-image: url("../../images/enviraProject/envirasc.png");
+			content: '';
 			display: block;
-		}
+			background-size: contain;
+			background-repeat: no-repeat;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			opacity: 1;
+			position: relative;
+			overflow: hidden;
+		} */
 
-		.image.fit {
+		/* .image img {
 			display: block;
-		}
+		} */
 
-			.image.fit img {
+		/* .image.fit {
+			display: block;
+		} */
+
+			/* .image.fit img {
 				display: block;
 				width: 100%;
-			}
+			} */
 
-		.image.feature {
+		/* .image.feature {
 			display: block;
 			margin: 0 0 2em 0;
-		}
+		} */
 
-			.image.feature img {
-				display: block;
-				width: 100%;
-			}
 
-		.image.icon {
+
+		/* .image.icon {
 			-moz-perspective: 500px;
 			-webkit-perspective: 500px;
 			-ms-perspective: 500px;
 			perspective: 500px;
-		}
+		} */
 
 			/* .image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2279,23 +2294,33 @@ input, select, textarea {
 				transform: translateZ(1em);
 			} */
 
-			.image.icon:hover:after {
-				opacity: 1;
-			}
-			.proj1:hover:after{
-			background-image: url(../../images/enviraProject/enviragif.gif);
-			background-size:contain;
-			height: 100%;
-			width: auto;
-			background-repeat:no-repeat;
-			}
-			.proj1 img:hover:after{
-				display: none;
-			}
 
 
-	span.image.icon {
+	/* span.image.icon {
 		cursor: default;
+	} */
+	.projectButtons{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+		flex: 1 1 auto;
+		gap: 10px;
+		/* width:fit-content; */
+		height: auto;
+		/* background-color:#4eb980; */
+		/* overflow: hidden; */
+	}
+	.projectButtons .button{
+		width: 30%;
+		height: auto;
+		min-width: 11em;
+	}
+
+	@media screen and (max-width: 736px) {
+		.projectButtons{
+			display: none;
+		}
 	}
 
 /* Icon */
@@ -2672,22 +2697,16 @@ input, select, textarea {
 			text-align: inherit;
 		}
 
-		.feature .image {
-			display: inline-block;
-			height: 80%;
-			overflow: hidden;
-			position: relative;
-			width: 50%;
-		}
+		
+		/* project image
+		.feature .image img {
+			display: block;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+		} */
 
-			.feature .image img {
-				display: block;
-				/* height: 100%; */
-				width: 100%;
-				position: absolute;
-			}
-
-
+		
 		.feature:before {
 			background: blue;
 			content: '';
@@ -2695,26 +2714,47 @@ input, select, textarea {
 			height: 100%;
 			vertical-align: middle;
 		}
-
+		
 		.feature .content {
 			display: inline-block;
 			padding: 3.5em;
 			vertical-align: middle;
 			width: 48%;
 		}
-
-			.feature .content h3 {
-				margin-bottom: 0.5em;
-			}
-
-			.feature .content :last-child {
-				margin: 0;
-			}
-
+		
+		.feature .content h3 {
+			margin-bottom: 0.5em;
+		}
+		
+		.feature .content :last-child {
+			margin: 0;
+		}
+		
 		.feature.left {
 			text-align: left;
 		}
-
+		
+		.feature.left .content {
+			padding-right: 0;
+		}
+		
+		.feature.right {
+			text-align: left;
+		}
+		.feature.right .content {
+			padding-left: 0;
+		}
+	
+	.feature.long .content {
+		padding-top: 0;
+	}
+		.feature .image {
+			display: inline-block;
+			height: 100%;
+			overflow: hidden;
+			position: relative;
+			width: 50%;
+		}
 			.feature.left .image {
 				float: left;
 			}
@@ -2722,17 +2762,12 @@ input, select, textarea {
 				.feature.left .image img {
 					right: 0;
 					top: 0;
+					background-color: violet;
+					border: solid blue 4px;
 				}
 
-			.feature.left .content {
-				padding-right: 0;
-			}
-
-		.feature.right {
-			text-align: right;
-		}
-
-			.feature.right .image {
+				
+				.feature.right .image {
 				float: right;
 			}
 
@@ -2741,14 +2776,86 @@ input, select, textarea {
 					top: 0;
 				}
 
-			.feature.right .content {
-				padding-left: 0;
-			}
 
-		.feature.long .content {
-			padding-top: 0;
+		/* .image.feature img {
+			display: block;
+			width: 100%;
+		} */
+		.image {
+			border: 0;
+			display: inline-block;
+			position: relative;
+			/* padding-top: 30px; */
 		}
 
+		/* project gif preview */
+
+		
+		.proj1 {
+			/* -moz-transition: opacity 0.25s ease-in-out;
+			-webkit-transition: opacity 0.25s ease-in-out;
+			-ms-transition: opacity 0.25s ease-in-out;
+			transition: opacity 0.25s ease-in-out; */
+			background-image: url("../../images/enviraProject/envirasc.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			content: '';
+			display: block;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			opacity: 1;
+			position: relative;
+			/* overflow: hidden; */
+		}
+		.proj1:hover{
+		background-image: url(../../images/enviraProject/enviragif.gif);
+		background-size:contain;
+		height: 100%;
+		width: 100%;
+		background-repeat:no-repeat;
+		}
+		
+@media screen and (max-width: 736px) {
+
+			/* Feature mobile */
+
+			.feature {
+				background: #ffffff;
+				display: block;
+				height: auto;
+				margin-bottom: 2em;
+			}
+
+				.feature:last-child {
+					margin-bottom: 0;
+				}
+
+				.feature:before, .feature:after {
+					display: none;
+				}
+
+				.feature .image {
+					float: none;
+					height: 11em;
+					width: 100%;
+				}
+
+				.feature .content {
+					border: solid 1px rgba(224, 224, 224, 0.75);
+					padding: 2em !important;
+					text-align: center;
+					width: 100%;
+				}
+				.feature .image{
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					padding: 0;
+					}		
+}
 /* Header */
 	/* 3200px 460px */
 	#header {
@@ -3451,36 +3558,6 @@ input, select, textarea {
 				padding: 2em;
 				margin-bottom: 2em;
 			}
-
-		/* Feature */
-
-			.feature {
-				background: #ffffff;
-				display: block;
-				height: auto;
-				margin-bottom: 2em;
-			}
-
-				.feature:last-child {
-					margin-bottom: 0;
-				}
-
-				.feature:before, .feature:after {
-					display: none;
-				}
-
-				.feature .image {
-					float: none;
-					height: 15em;
-					width: 100%;
-				}
-
-				.feature .content {
-					border: solid 1px rgba(224, 224, 224, 0.75);
-					padding: 2em !important;
-					text-align: center;
-					width: 100%;
-				}
 
 		/* Header */
 				/* 1280px 184px */
