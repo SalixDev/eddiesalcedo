@@ -2164,25 +2164,28 @@ input, select, textarea {
 
 	
 .shadow-title{
+	/* background-image: url("../css/images/esLogo/default.svg"); */
 	position: fixed;
 	top: 0;
-	margin-top: 30px;
-	left: 25px;
+	margin-top: 10px;
+	left: 10px;
 	width: 100%;
-	height: 300%;
+	height: 100%;
 	text-align: left;
 	font-family: 'Muli', sans-serif;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr;
-	font-size: 10vw;
+	font-size: 4vw;
 	line-height: 1;
 	color: rgba(200,200,200,.1);
-	background: linear-gradient(90deg, rgba(200,200,200,0), rgba(200,200,200,0.8));
+	background: linear-gradient(90deg, rgba(200,200,200,0.2), rgba(200,200,200,0.8));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	font-weight: 900;
 	z-index: 1;
-	letter-spacing:-.3rem;
+	letter-spacing:-.15rem;
+	background-repeat: no-repeat;
+	/* opacity: .3; */
 }
 .section-parallax{
 	position: fixed;
@@ -2215,9 +2218,10 @@ input, select, textarea {
 			height: 100%;
 			left: 0;
 			opacity: 0.2;
-			/* position: relative; */
+			position: relative;
 			top: 0;
 			width: 100%;
+			overflow: hidden;
 		}
 
 		.image img {
@@ -2250,7 +2254,7 @@ input, select, textarea {
 			perspective: 500px;
 		}
 
-			.image.icon:before {
+			/* .image.icon:before {
 				-moz-transition: -moz-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-webkit-transition: -webkit-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
 				-ms-transition: -ms-transform 0.1s ease-in-out, font-size 0.1s ease-in-out;
@@ -2266,25 +2270,36 @@ input, select, textarea {
 				top: 50%;
 				width: 1em;
 				z-index: 1;
-			}
-
+			} */
+/* 
 			.image.icon:hover:before {
 				-moz-transform: translateZ(1em);
 				-webkit-transform: translateZ(1em);
 				-ms-transform: translateZ(1em);
 				transform: translateZ(1em);
-			}
+			} */
 
 			.image.icon:hover:after {
 				opacity: 1;
 			}
+			.proj1:hover:after{
+			background-image: url(../../images/enviraProject/enviragif.gif);
+			background-size:contain;
+			height: 100%;
+			width: auto;
+			background-repeat:no-repeat;
+			}
+			.proj1 img:hover:after{
+				display: none;
+			}
+
 
 	span.image.icon {
 		cursor: default;
 	}
 
 /* Icon */
-
+/* 
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2318,7 +2333,7 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
-		}
+		} */
 
 /* List */
 
@@ -2659,7 +2674,7 @@ input, select, textarea {
 
 		.feature .image {
 			display: inline-block;
-			height: 100%;
+			height: 80%;
 			overflow: hidden;
 			position: relative;
 			width: 50%;
@@ -2667,10 +2682,11 @@ input, select, textarea {
 
 			.feature .image img {
 				display: block;
-				min-height: 100%;
-				min-width: 100%;
+				/* height: 100%; */
+				width: 100%;
 				position: absolute;
 			}
+
 
 		.feature:before {
 			background: blue;
@@ -2805,7 +2821,7 @@ input, select, textarea {
 			margin: 0 0 0.75em 0;
 			text-align: center;
 			width: 4.35em;
-			z-index: 3;
+			z-index: 2;
 			position: relative;
 		}
 		
@@ -2855,7 +2871,7 @@ input, select, textarea {
 			position: absolute;
 			top: 0;
 			width: 1px;
-			z-index: 0;
+			z-index: 2;
 		}
 
 		#footer a {
