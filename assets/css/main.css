@@ -2816,6 +2816,25 @@ input, select, textarea {
 		width: 100%;
 		background-repeat:no-repeat;
 		}
+		.proj2 {
+			/* -moz-transition: opacity 0.25s ease-in-out;
+			-webkit-transition: opacity 0.25s ease-in-out;
+			-ms-transition: opacity 0.25s ease-in-out;
+			transition: opacity 0.25s ease-in-out; */
+			background-image: url("../../images/baseApparel/BaseApparel-full.png");
+			background-size: contain;
+			background-repeat: no-repeat;
+			background-position: center;
+			content: '';
+			display: block;
+			height: 100%;
+			width: 100%;
+			left: 0;
+			top: 0;
+			opacity: 1;
+			position: relative;
+			/* overflow: hidden; */
+		}
 		
 @media screen and (max-width: 736px) {
 
