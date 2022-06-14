@@ -2987,7 +2987,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 	}
-
+/* 
 		#footer:before {
 			background: rgba(224, 224, 224, 0.75);
 			content: '';
@@ -2997,7 +2997,7 @@ input, select, textarea {
 			top: 0;
 			width: 1px;
 			z-index: 2;
-		}
+		} */
 
 		#footer a {
 			color: #ffffff;
