@@ -2,16 +2,14 @@
 Webpage for freelancing, connections, display my work and provide validity, and a contact medium. 
 
 **Link to project:** http://eddiesalcedo.com/
+![alt tag](/images/eddieSalcedoSC/eddiesalcedo.com-statis-sc.png)
 
 ## How It's Made:
 
 **Tech used:** HTML, CSS, SASS, JavaScript
+<!-- ## Optimizations
 
-
-## Optimizations
-*(optional)*
-
-in progress
+in progress -->
 
 ## Lessons Learned:
 
